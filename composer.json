@@ -1,0 +1,37 @@
+{
+  "name": "emilien/mailerpress",
+  "autoload": {
+    "psr-4": {
+      "MailerPress\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Emilien Laborde",
+      "email": "emilien@cosavostra.com"
+    }
+  ],
+  "require": {
+    "php-di/php-di": "^7.0.8",
+    "woocommerce/action-scheduler": "^3.9.1"
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^3.0",
+    "tareq1988/wp-php-cs-fixer": "^1.0",
+    "friendsofphp/php-cs-fixer": "^3.70"
+  },
+  "config": {
+    "allow-plugins": {
+      "kylekatarnls/update-helper": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpcs --standard=phpcs.xml"
+    ],
+    "fix": [
+      "vendor/bin/php-cs-fixer fix ."
+    ]
+  }
+}

@@ -1,0 +1,468 @@
+# Copyright (C) 2025 Team MailerPress
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MailerPress 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mailerpress\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-03T17:15:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: mailerpress\n"
+
+#. Plugin Name of the plugin
+#: mailerpress.php
+#: src/Actions/Admin/AdminMenu.php:28
+#: src/Actions/Admin/AdminMenu.php:29
+msgid "MailerPress"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: mailerpress.php
+msgid "https://mailerpress.com/"
+msgstr ""
+
+#. Description of the plugin
+#: mailerpress.php
+msgid "Create beautiful emails simply inside WordPress connected to your favorite Email Service Provider"
+msgstr ""
+
+#. Author of the plugin
+#: mailerpress.php
+msgid "Team MailerPress"
+msgstr ""
+
+#: src/Actions/Admin/AdminMenu.php:39
+#: src/Actions/Admin/AdminMenu.php:40
+msgid "New Campaign"
+msgstr ""
+
+#: src/Actions/Admin/AdminMenu.php:50
+#: src/Actions/Admin/AdminMenu.php:51
+msgid "Upgrade"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:25
+msgctxt "post type general name"
+msgid "Mailpress campaigns"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:26
+msgctxt "post type singular name"
+msgid "Block builder"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:27
+msgctxt "admin menu"
+msgid "Block builder"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:28
+msgctxt "add new on admin bar"
+msgid "Block"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:29
+msgctxt "block"
+msgid "Add New"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:30
+msgid "Add New Block"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:31
+msgid "New Block"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:32
+msgid "Edit Block"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:33
+msgid "View Block"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:34
+msgid "All Blocks"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:35
+msgid "Search Blocks"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:36
+msgid "Parent Blocks:"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:37
+msgid "No blocks found."
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:38
+msgid "No blocks found in Trash."
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:64
+msgctxt "post type general name"
+msgid "Mailpress patterns"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:65
+msgctxt "post type singular name"
+msgid "Mailpress pattern"
+msgstr ""
+
+#: src/Actions/Admin/Cpt.php:95
+#: src/Actions/Admin/Cpt.php:96
+msgid "MailerPress Page"
+msgstr ""
+
+#: src/Actions/Pages/Pages.php:43
+msgid "Invalid unsubscribe link."
+msgstr ""
+
+#: src/Actions/Pages/Pages.php:143
+msgid "Accidentally unsubscribed?"
+msgstr ""
+
+#: src/Actions/Pages/Pages.php:150
+msgid "Simply click on this link to stop receiving emails from us."
+msgstr ""
+
+#: src/Actions/Pages/Pages.php:246
+msgid "You are now unsubscribed."
+msgstr ""
+
+#: src/Actions/Pages/Pages.php:249
+msgid "Confirm your unsubscription"
+msgstr ""
+
+#: src/Actions/Pages/Pages.php:252
+msgid "Manage your subscription"
+msgstr ""
+
+#: src/Actions/Setup/Init.php:42
+msgid "Marketing communication"
+msgstr ""
+
+#: src/Actions/Setup/Init.php:45
+msgid "Ecommerce"
+msgstr ""
+
+#: src/Api/Campaigns.php:139
+#: src/Api/Campaigns.php:328
+msgid "Campaign not found."
+msgstr ""
+
+#: src/Api/Campaigns.php:191
+msgid "Failed to create campaign."
+msgstr ""
+
+#: src/Api/Campaigns.php:220
+msgid "No campaign IDs provided."
+msgstr ""
+
+#: src/Api/Campaigns.php:238
+msgid "Failed to delete the campaigns."
+msgstr ""
+
+#: src/Api/Campaigns.php:253
+msgid "Failed to delete the batches."
+msgstr ""
+
+#: src/Api/Campaigns.php:260
+msgid "Campaigns successfully deleted."
+msgstr ""
+
+#: src/Api/Campaigns.php:346
+msgid "Failed to update campaign."
+msgstr ""
+
+#: src/Api/Campaigns.php:353
+msgid "Campaign updated successfully."
+msgstr ""
+
+#: src/Api/Campaigns.php:619
+msgid "Invalid Base64 string."
+msgstr ""
+
+#: src/Api/Contacts.php:290
+msgid "Contact IDs must be an array and cannot be empty"
+msgstr ""
+
+#: src/Api/Contacts.php:303
+msgid "One or more contacts not found"
+msgstr ""
+
+#: src/Api/Contacts.php:314
+msgid "Contacts deleted successfully"
+msgstr ""
+
+#: src/Api/Contacts.php:318
+msgid "Failed to delete contacts"
+msgstr ""
+
+#: src/Api/Options.php:105
+msgid "Yup, it works! You can start blasting away emails to the moon."
+msgstr ""
+
+#: src/Api/Options.php:106
+msgid "This is a Sending Method Test"
+msgstr ""
+
+#: src/Api/Patterns.php:77
+msgid "An error occurred while deleting the pattern."
+msgstr ""
+
+#: src/Blocks/PatternsCategories.php:15
+msgid "Header"
+msgstr ""
+
+#: src/Blocks/PatternsCategories.php:18
+msgid "Footer"
+msgstr ""
+
+#: src/Blocks/PatternsCategories.php:21
+msgid "Text"
+msgstr ""
+
+#: src/Blocks/PatternsCategories.php:24
+msgid "Banners"
+msgstr ""
+
+#: src/Blocks/PatternsCategories.php:27
+msgid "Call to action"
+msgstr ""
+
+#: src/Core/EmailManager/EmailServiceManager.php:42
+msgid "No active service is configured or the configured service is not registered."
+msgstr ""
+
+#. translators: %s the service key name
+#: src/Core/EmailManager/EmailServiceManager.php:58
+msgid "Unable to connect to active service %s."
+msgstr ""
+
+#. translators: %s the service key name
+#: src/Core/EmailManager/EmailServiceManager.php:79
+#: src/Core/EmailManager/EmailServiceManager.php:142
+msgid "The service %s is not registered."
+msgstr ""
+
+#. translators: %s the service key name
+#: src/Core/EmailManager/EmailServiceManager.php:91
+msgid "No configuration found for the service %s."
+msgstr ""
+
+#. translators: %s the service key name
+#: src/Core/EmailManager/EmailServiceManager.php:104
+msgid "Unable to connect to the service %s."
+msgstr ""
+
+#: src/Core/EmailManager/EmailServiceManager.php:156
+msgid "No active sending service is configured."
+msgstr ""
+
+#. translators: %s the service key name
+#: src/Core/EmailManager/EmailServiceManager.php:199
+msgid "The service %s does not exist."
+msgstr ""
+
+#: src/Core/EmailManager/services/BrevoService.php:41
+msgid "Confidently send transactional emails with Brevo, formerly Sendinblue. With an impressive free offer, Brevo allows you to send up to 300 transactional emails per day! And for those who need to send more, just pay for what you send. For more information on getting started with Brevo, check out our documentation."
+msgstr ""
+
+#: src/Core/EmailManager/services/MailgunService.php:31
+msgid "Mailgun is a transactional email service that delivers industry-leading reliability, compliance and speed. Offered on trial for 30 days, Mailgun's premium service starts at $35 per month, which allows you to send up to 50,000 emails. For more information on getting started with Mailgun, check out our documentation."
+msgstr ""
+
+#: src/Core/EmailManager/services/MailjetService.php:30
+#: src/Core/EmailManager/services/SmtpService.php:31
+msgid "Use our Custom SMTP feature to easily connect to any SMTP server. If you don't want to use one of Gravity SMTP's built-in integrations, with Custom SMTP you can sync with a wide range of services that can reliably send your site's emails. For more information on getting started with Custom SMTP, see our documentation."
+msgstr ""
+
+#: src/Core/EmailManager/services/PhpService.php:32
+msgid "Use your server's default PHP Mailer to send emails."
+msgstr ""
+
+#: src/Core/EmailManager/services/SendGridService.php:31
+msgid "Send at scale with Twilio SendGrid, which boasts an industry-leading 99% deliverability rate. SendGrid offers both a free 100 emails per day plan and, if you need to exceed that limit, a selection of preset pricing plans, starting at $19.95 per month for up to 50,000 emails. For more information on getting started with SendGrid, check out our documentation."
+msgstr ""
+
+#: src/Core/Esp/Brevo/BrevoEsp.php:65
+msgid "Brevo is an all-in-one marketing platform offering email campaigns, automation, SMS, CRM, and API tools for effective communication."
+msgstr ""
+
+#: src/Core/Esp/Mailchimp/MailchimpEsp.php:59
+msgid "Win new customers with the #1 email marketing and automations platform* that recommends ways to get more opens, clicks, and sales."
+msgstr ""
+
+#: src/Core/Esp/Mailjet/MailjetEsp.php:31
+msgid "Mailjet is an email platform offering seamless transactional and marketing email sending, advanced personalization, real-time analytics, and API integration."
+msgstr ""
+
+#: src/Core/Esp/Php/PhpEsp.php:37
+msgid "The PHP method sends your emails using your server."
+msgstr ""
+
+#: src/Core/Esp/SendGrid/SendGridEsp.php:32
+msgid "SendGrid is a cloud-based email platform offering reliable delivery, automation, analytics, and API integration for transactional and marketing emails."
+msgstr ""
+
+#: src/Core/Esp/Smtp/SmtpEsp.php:37
+msgid "The SMTP method allows you to fine-tune a sending method by configuring a dedicated SMTP server."
+msgstr ""
+
+#. translators: %s the directory path of the template
+#: src/Core/TemplateRenderer.php:62
+msgid "The provided template directory does not exist: %s"
+msgstr ""
+
+#. translators: %s the relative path of the template
+#: src/Core/TemplateRenderer.php:87
+msgid "Template file not found: %s"
+msgstr ""
+
+#. translators: %s the error message
+#: src/Core/TemplateRenderer.php:107
+msgid "An error occurred while rendering the template: %s"
+msgstr ""
+
+#: templates/confirm-unsubscribe-template.php:5
+msgid "Yes, unsubscribe me"
+msgstr ""
+
+#: templates/manage-subscription.php:11
+msgid "First Name"
+msgstr ""
+
+#: templates/manage-subscription.php:16
+msgid "Last Name"
+msgstr ""
+
+#: templates/manage-subscription.php:21
+msgid "Status *"
+msgstr ""
+
+#: templates/manage-subscription.php:24
+msgid "Subscribed"
+msgstr ""
+
+#: templates/manage-subscription.php:26
+msgid "Unsubscribed"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:3650
+msgid "Parameters"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:4086
+msgid "Save settings"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:4094
+msgid "Enable sign-up confirmation"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:4096
+msgid "If you enable this option, your subscribers will first receive a confirmation email after they subscribe. Once they confirm their subscription (via this email), they will be marked as 'confirmed' and will begin to receive your email newsletters. Read more about Double Opt-in confirmation."
+msgstr ""
+
+#: build/dist/js/mail-editor.js:4101
+msgid "Confirmation page"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:4103
+msgid "When subscribers click on the activation link, they will be redirected to this page."
+msgstr ""
+
+#: build/dist/js/mail-editor.js:5837
+msgid "Select a choice"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:6422
+msgid "%d of %s selected"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:6679
+msgid "Export Contacts"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:6898
+msgid "All good, your contacts are now imported"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7020
+msgid "Recent drafts"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7139
+msgid "No campaigns found"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7140
+msgid "It looks like you still haven't created any campaigns. To get started click on the button above"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7412
+msgid "Before using mailerpress, please setup the plugin"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7416
+msgid "Exit"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7421
+msgid "Start by configuring your sender information"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7428
+msgid "Default sender"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7428
+msgid "Enter details of the person or brand your subscribers expect to receive emails from"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7440
+msgid "From Name"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7447
+msgid "From Address"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7455
+#: build/dist/js/mail-editor.js:7480
+msgid "Validate and move on to the next step"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7463
+msgid "Please select your Email Service Provider"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7473
+msgid "Return to previous step"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7482
+msgid "You are all set !"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7484
+msgid "You can now create and send your newsletter thanks with MailerPress"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7508
+msgid "Create your first campaign"
+msgstr ""
+
+#: build/dist/js/mail-editor.js:7512
+msgid "Go to home"
+msgstr ""

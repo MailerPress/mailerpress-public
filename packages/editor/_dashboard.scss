@@ -1,0 +1,64 @@
+.widget-summary-today {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #E3E3E3;
+
+  &__calendar {
+    padding: 16px;
+    border-right: 1px solid #E3E3E3;
+    background: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  &__resume {
+    flex: 1;
+    padding: 16px;
+    //background: #f8f8f8;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-height: 260px;
+    overflow: auto;
+  }
+}
+
+.listing-dashboard-campaign {
+
+  &__item {
+    position: relative;
+
+    > div {
+      z-index: 14;
+    }
+
+    &:hover {
+      &:before {
+        visibility: visible;
+      }
+    }
+
+    &:before {
+      content: "";
+      width: calc(100% + 16px);
+      height: calc(100% + 15px);
+      position: absolute;
+      background: #f8f8f8;
+      visibility: hidden;
+      pointer-events: none;
+      left: -8px;
+      z-index: 1;
+    }
+
+    &:not(:last-of-type) {
+      &:after {
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: #e5e5e5;
+        display: block;
+        position: absolute;
+        bottom: -8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.empty-state-component {
+  background: #f8f8f8;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: $grid-unit-40;
+  gap: 4px;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}

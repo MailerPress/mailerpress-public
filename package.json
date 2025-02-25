@@ -1,0 +1,73 @@
+{
+  "name": "mailerpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
+    "build": "wp-scripts build",
+    "prod": "wp-scripts build"
+  },
+  "wp-env": {
+    "plugin-dir": "mailerpress",
+    "plugin-name": "MailerPress"
+  },
+  "dependencies": {
+    "@wordpress/icons": "^10.16.0",
+    "autoprefixer": "^10.4.19",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.11",
+    "framer-motion": "^12.4.3",
+    "js-beautify": "^1.15.1",
+    "mjml": "^4.15.3",
+    "mjml-browser": "^4.15.3",
+    "motion": "^12.0.6",
+    "node-polyfill-webpack-plugin": "^3.0.0",
+    "php-serialize": "^5.0.1",
+    "postcss": "^8.4.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.5",
+    "slugify": "^1.6.6",
+    "timeago.js": "^4.0.2",
+    "ts-loader": "^9.5.1",
+    "unescape": "^1.0.1",
+    "uuid": "^11.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "@types/mjml": "^4.7.4",
+    "@types/mjml-browser": "^4.15.0",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@wordpress/scripts": "^27.9.0",
+    "babel-loader": "^9.2.1",
+    "esbuild": "^0.21.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "jszip": "^3.10.1",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.77.1",
+    "sass-loader": "14.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.12",
+    "vite-plugin-zip-file": "^3.1.0",
+    "vite-plugin-zip-pack": "^1.2.3",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "zip-lib": "^1.0.4"
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

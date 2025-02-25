@@ -1,0 +1,13 @@
+import {omit} from 'lodash';
+import MjmlBlock from "./MjmlBlock.tsx";
+import {blockType} from "../../constants.ts";
+
+export function Raw(props) {
+    return <MjmlBlock
+        attributes={omit(props, ['data', 'children', 'value'])}
+        type={blockType.RAW}
+        value={props.value}
+    >
+        {props.children}
+    </MjmlBlock>
+}
