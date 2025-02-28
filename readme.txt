@@ -3,8 +3,8 @@ Authors: mailerpress
 Contributors: mailerpress, lamile40370, seopress, rainbowgeek, maigret
 Donate link: https://mailerpress.com/
 Tags: newsletter, emailing, email marketing, mjml, automation
-Requires at least: 6.4
-Tested up to: 6.7
+Requires at least: 6.5
+Tested up to: 6.7.2
 Stable tag: 1.0.0
 Requires PHP: 8.0
 License: GPLv3 or later
@@ -26,6 +26,9 @@ MailerPress is the ultimate email marketing solution for WordPress. Send email c
 - Track email performance
 - Integrate with your favorite WordPress plugins
 
+
+Source available on our Github public repository: https://github.com/mailerpress/mailerpress-public
+
 == Installation ==
 
 1. Upload the plugin files to the `/wp-content/plugins/mailerpress` directory, or install the plugin through the WordPress plugins screen directly.
@@ -43,15 +46,12 @@ For PRO users: support by mail from their customer account.
 MailerPress sends the following data to one of these email service provider (ESP) depending on your MailerPress settings to send emails:
 - Brevo (https://www.brevo.com/legal/privacypolicy/):
   - Contacts
-  - Lists
   - Senders
 - Mailjet (https://www.mailjet.com/legal/privacy-policy/):
   - Contacts
-  - Lists
   - Senders
 - Mailchimp (https://mailchimp.com/legal/privacy/):
   - Contacts
-  - Lists
   - Senders
 
 == Changelog ==

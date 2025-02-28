@@ -6,14 +6,13 @@ declare(strict_types=1);
  * Plugin Name: MailerPress
  * Plugin URI: https://mailerpress.com/
  * Description: Create beautiful emails simply inside WordPress connected to your favorite Email Service Provider
- * Version: 0.1.0
+ * Version: 1.0.0
  * Author: Team MailerPress
- * Author URI: https://mailerpress.com/
  * License: GPLv3 or later
  * Text Domain: mailerpress
  * Domain Path: /languages
  * Requires PHP: 8.0
- * Requires at least: 6.5.
+ * Requires at least: 6.5
  */
 
 /*  Copyright 2025 - Team MailerPress (email : contact@mailerpress.com)
@@ -42,18 +41,18 @@ define('MAILERPRESS_VERSION', '{VERSION}');
 define('MAILERPRESS_AUTHOR', 'Team MailerPress');
 define('MAILERPRESS_PLUGIN_DIR_PATH', plugin_dir_path(__FILE__));
 define('MAILERPRESS_PLUGIN_DIR_URL', plugin_dir_url(__FILE__));
-define('MAILERPRESS_ASSETS_DIR', MAILERPRESS_PLUGIN_DIR_URL.'assets');
+define('MAILERPRESS_ASSETS_DIR', MAILERPRESS_PLUGIN_DIR_URL . 'assets');
 
 // Load dependencies
-if (!file_exists(__DIR__.'/vendor/autoload.php')) {
+if (!file_exists(__DIR__ . '/vendor/autoload.php')) {
     return;
 }
 
-require_once __DIR__.'/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 try {
     if (!class_exists('ActionScheduler')) {
-        require_once __DIR__.'/vendor/woocommerce/action-scheduler/action-scheduler.php'; // Adjust the path to where it's located
+        require_once __DIR__ . '/vendor/woocommerce/action-scheduler/action-scheduler.php'; // Adjust the path to where it's located
     }
 
     // Initialize the plugin
@@ -77,7 +76,7 @@ try {
 
     // Uninstall hook
     register_uninstall_hook(__FILE__, function (): void {
-        require_once __DIR__.'/src/Core/Uninstall.php';
+        require_once __DIR__ . '/src/Core/Uninstall.php';
         $uninstall = new Uninstall();
         $uninstall->run();
 
